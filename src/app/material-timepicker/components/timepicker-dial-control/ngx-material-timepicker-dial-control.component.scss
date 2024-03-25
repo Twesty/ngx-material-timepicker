@@ -2,13 +2,19 @@
 @import "../../styles/dial-common";
 
 .timepicker-dial__control {
-    border: none;
-    background-color: transparent;
-    font-size: 50px;
-    width: 60px;
+    width: 97px;
+    height: 80px;
+
     padding: 0;
-    border-radius: 3px;
-    text-align: right;
+
+    border: none;
+    background-color: #36343B;
+    border-radius: 8px;
+
+    font-size: 57px;
+    color: #E6E0E9;
+    text-align: center;
+
     &_editable {
         &:focus {
             color: $dial-editable-active-color;
@@ -25,9 +31,11 @@
             }
         }
     }
+
     &:disabled {
         cursor: default;
     }
+
     &:focus-visible {
         outline: none;
     }

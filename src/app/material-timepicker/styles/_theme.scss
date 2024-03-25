@@ -1,22 +1,22 @@
 :host {
     /* Timepicker common */
-    --body-background-color: #fff;
-    --primary-font-family: 'Roboto', sans-serif;
-    --button-color: deepskyblue;
+    --body-background-color: #323038;
+    --primary-font-family: 'Geologica', 'Roboto' sans-serif;
+    --button-color: #FFC399;
 
     /* Timepicker dial */
-    --dial-active-color: #fff;
-    --dial-inactive-color: rgba(255, 255, 255, .5);
-    --dial-background-color: deepskyblue;
-    --dial-editable-active-color: deepskyblue;
-    --dial-editable-background-color: #fff;
+    --dial-active-color: #323038;
+    --dial-inactive-color: #9F9FAF;
+    --dial-background-color: #323038;
+    --dial-editable-active-color: #FFC399;
+    --dial-editable-background-color: #FFC3990D;
 
     /* Timepicker clock face */
-    --clock-face-time-active-color: #fff;
-    --clock-face-time-inactive-color: #6c6c6c;
+    --clock-face-time-active-color: #323038;
+    --clock-face-time-inactive-color: #CFCFE2;
     --clock-face-inner-time-inactive-color: #929292;
     --clock-face-time-disabled-color: #c5c5c5;
-    --clock-face-background-color: #f0f0f0;
-    --clock-hand-color: deepskyblue;
+    --clock-face-background-color: #36343B;
+    --clock-hand-color: #FFC399;
 
 }
